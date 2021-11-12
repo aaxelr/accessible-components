@@ -1,0 +1,12 @@
+.page_layout {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: Helvetica, sans-serif;
+  padding: 2rem;
+}
+
+.page_layout a {
+  margin: 2rem;
+}
