@@ -2,6 +2,7 @@ import React from 'react';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import TextField from '@mui/material/TextField';
+import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
 
 const style = {
@@ -22,19 +23,25 @@ function MUIModal({ openLoginForm, handleOpenLoginForm }) {
       open={openLoginForm}
       onClose={handleOpenLoginForm}
       aria-labelledby="modal-login"
-      aria-describedby="modal-login-form"
+      aria-describedby="modal-login-desc"
     >
       <Box sx={style}>
+        <Typography id="modal-login" variant="h6" component="h3">
+          Login
+        </Typography>
+        <Typography id="modal-login-desc" variant="body" component="p">
+          Sign in using your email addres and password.
+        </Typography>
         <form>
           <TextField
             required
-            id="email-required"
+            id="required-email-input"
             label="Email"
             type="email"
           />
           <TextField
             required
-            id="password-required"
+            id="required-password-input"
             label="Password"
             type="password"
           />
