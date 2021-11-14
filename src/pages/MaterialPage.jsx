@@ -1,10 +1,15 @@
 import React from 'react';
+import MUIArticles from '../components/MUIArticles';
+import MUIHeader from '../components/MUIHeader';
 
 function MaterialPage() {
   return (
-    <div>
-      Material-UI
-    </div>
+    <React.Fragment>
+      <MUIHeader />
+      <MUIArticles />
+      {/* CONTACT FORM */}
+      {/* FOOTER */}
+    </React.Fragment>
   );
 }
 
