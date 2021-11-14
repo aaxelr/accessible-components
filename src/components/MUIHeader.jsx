@@ -8,7 +8,7 @@ import MUILogin from './MUILogin';
 function MUIHeader() {
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar>
+      <AppBar position="static">
         <Toolbar>
           <Typography variant="h3" component="h1" sx={{ flexGrow: 1 }}>
             Material-UI
