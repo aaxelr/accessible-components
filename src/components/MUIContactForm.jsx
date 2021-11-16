@@ -14,7 +14,7 @@ function MUIContactForm() {
         margin: '1rem',
       }}
     >
-      <Typography variant="h5" component="h3">
+      <Typography variant="h4" component="h2">
         Contact
       </Typography>
       <Box
