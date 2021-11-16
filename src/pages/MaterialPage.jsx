@@ -2,6 +2,7 @@ import React from 'react';
 import Container from '@mui/material/Container';
 import MUIArticles from '../components/MUIArticles';
 import MUIContactForm from '../components/MUIContactForm';
+import MUIFooter from '../components/MUIFooter';
 import MUIHeader from '../components/MUIHeader';
 
 function MaterialPage() {
@@ -19,7 +20,7 @@ function MaterialPage() {
         <MUIArticles />
         <MUIContactForm />
       </Container>
-      {/* FOOTER */}
+      <MUIFooter />
     </React.Fragment>
   );
 }
