@@ -1,10 +1,14 @@
 import React from 'react';
+import { ChakraProvider } from "@chakra-ui/react"
+import ChakraHeader from '../components/ChakraHeader';
+import ChakraArticles from '../components/ChakraArticles';
 
 function ChakraPage() {
   return (
-    <div>
-      Chakra UI
-    </div>
+    <ChakraProvider>
+      <ChakraHeader />
+      <ChakraArticles />
+    </ChakraProvider>
   );
 }
 
