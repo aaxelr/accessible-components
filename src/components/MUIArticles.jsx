@@ -45,7 +45,7 @@ function MUIArticles() {
         <React.Fragment>
           {error && (
             <Typography variant="body" component="p">
-              Loading...
+              {error}
             </Typography>
           )}
           {articles}
