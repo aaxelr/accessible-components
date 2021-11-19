@@ -1,9 +1,9 @@
 import React from 'react';
 import Container from '@mui/material/Container';
-import MUIArticles from '../components/MUIArticles';
-import MUIContactForm from '../components/MUIContactForm';
-import MUIFooter from '../components/MUIFooter';
-import MUIHeader from '../components/MUIHeader';
+import MUIArticles from '../components/MUI/MUIArticles';
+import MUIContactForm from '../components/MUI/MUIContactForm';
+import MUIFooter from '../components/MUI/MUIFooter';
+import MUIHeader from '../components/MUI/MUIHeader';
 
 function MaterialPage() {
   return (
