@@ -1,8 +1,9 @@
 import React from 'react';
 import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
 import Container from '@mui/material/Container';
 import TextField from '@mui/material/TextField';
-import { Typography } from '@mui/material';
+import Typography from '@mui/material/Typography';
 
 function MUIContactForm() {
   return (
@@ -46,6 +47,9 @@ function MUIContactForm() {
           rows={4}
           fullWidth
         />
+        <Button>
+          Send
+        </Button>
       </Box>
     </Container>
   );
