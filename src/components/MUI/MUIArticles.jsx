@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 import MUIArticle from './MUIArticle';
-import useAxios from '../utils/useAxios';
+import useAxios from '../../utils/useAxios';
 
 function MUIArticles() {
   const [data, setData] = useState([]);
