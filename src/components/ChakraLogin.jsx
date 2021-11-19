@@ -1,7 +1,7 @@
 import React from 'react';
-import { Center } from '@chakra-ui/layout';
 import {
   Button,
+  Center,
   useDisclosure,
 } from "@chakra-ui/react"
 import ChakraModal from './ChakraModal';

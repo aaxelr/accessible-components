@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Flex, Heading, Spacer } from '@chakra-ui/layout';
+import { Box, Flex, Heading, Spacer } from '@chakra-ui/react';
 import ChakraLogin from './ChakraLogin';
 
 function ChakraHeader() {

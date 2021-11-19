@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Flex } from '@chakra-ui/layout';
-import { Heading, Text } from '@chakra-ui/react';
+import { Flex, Heading, Text } from '@chakra-ui/react';
 import ChakraArticle from './ChakraArticle';
 import useAxios from '../utils/useAxios';
 
