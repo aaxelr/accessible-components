@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Flex, Heading, Text } from '@chakra-ui/react';
 import ChakraArticle from './ChakraArticle';
-import useAxios from '../utils/useAxios';
+import useAxios from '../../utils/useAxios';
 
 function ChakraArticles() {
   const [data, setData] = useState([]);
